@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GC_LAB_2_0.cs" />
+    <Compile Include="..\GC_LAB_2_0.cs">
+      <Link>GC_LAB_2_0.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
